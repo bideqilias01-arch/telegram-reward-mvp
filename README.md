@@ -1,24 +1,29 @@
-# telegram-reward-mvp
-Crypto mining
-Telegram
-   │
-   ▼
-@BotFather
-   │
-   │ BOT_TOKEN
-   ▼
-TON BOT TELEGRAM
-   │
-   ▼
-Application Node.js
-   │
-   ├── /start
-   ├── ⛏️ Earn points
-   ├── 🎁 Daily bonus
-   ├── 👥 Referral
-   └── 📊 Balance
-   │
-   ▼
-Serveur de déploiement
-   │
-   └── GitHub → Render
+                 TELEGRAM
+              @IBPoolMiningBot
+                     │
+          commandes / statistiques
+                     │
+                     ▼
+              BACKEND SERVEUR
+             Node.js + PostgreSQL
+                     │
+          ┌──────────┴──────────┐
+          ▼                     ▼
+     MINING ENGINE          MINING POOL
+     / WORKERS              Stratum V1/V2
+          │                     │
+          │               ┌─────┴─────┐
+          │               ▼           ▼
+          │             BTC          autre PoW
+          │
+          ▼
+       HASHRATE
+          │
+          ▼
+     SHARES ACCEPTÉES
+          │
+          ▼
+      REVENUS RÉELS
+          │
+          ▼
+    WALLET / PAYOUT
